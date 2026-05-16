@@ -3,4 +3,4 @@ A portfolio website for an LA makeup artist and creative, featuring an experimen
 
 Under construction but current state of site can be viewed here:
 
-violentdelights.vercel.app
+https://violentdelights.vercel.app/
