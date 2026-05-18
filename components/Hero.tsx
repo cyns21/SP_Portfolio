@@ -21,7 +21,8 @@ export function Hero() {
         <motion.p variants={fadeUp} transition={{ duration: 0.64, ease: [0.22, 1, 0.36, 1] }} className="mt-6 max-w-2xl text-base leading-7 text-ink/75 sm:text-lg">{siteContent.intro}</motion.p>
         <motion.div variants={fadeUp} transition={{ duration: 0.64, ease: [0.22, 1, 0.36, 1] }} className="mt-9 flex flex-col gap-3 sm:flex-row">
           <a href="#gallery" className="focus-ring inline-flex items-center justify-center gap-3 border border-ink bg-ink px-6 py-3 text-sm font-display text-2xl normal-case tracking-normal text-powder transition duration-200 hover:bg-cherry"><Images size={18} />View Gallery</a>
-          <a href="#blog" className="focus-ring inline-flex items-center justify-center gap-3 border border-ink bg-blush px-6 py-3 text-sm font-black uppercase tracking-[0.13em] transition duration-200 hover:bg-powder"><BookOpen size={18} />Read Journal</a>
+          // Gallery button above
+          <a href="#blog" className="focus-ring inline-flex items-center justify-center gap-3 border border-ink bg-blush px-6 py-3 text-sm font-display text-2xl normal-case tracking-normal transition duration-200 hover:bg-powder"><BookOpen size={18} />Read Journal</a>
         </motion.div>
       </motion.div>
       <motion.div className="relative mx-auto w-full max-w-[520px] lg:max-w-none" initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.72, ease: [0.22, 1, 0.36, 1], delay: 0.16 }}>
