@@ -18,7 +18,7 @@ const config: Config = {
         cherry: "rgb(var(--cherry) / <alpha-value>)"
       },
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
+        pirata: ["var(--font-pirata)", "Georgia", "serif"],
         body: ["var(--font-body)", "Inter", "Arial", "sans-serif"]
       },
       boxShadow: {

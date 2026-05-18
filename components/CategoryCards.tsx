@@ -12,7 +12,7 @@ export function CategoryCards() {
           <p className="barbed-divider ml-[60px] text-xs font-black uppercase tracking-[0.2em] text-cherry">
             Featured categories
           </p>
-          <h2 className="mt-4 max-w-3xl font-display text-5xl leading-none sm:text-6xl">
+          <h2 className="mt-4 max-w-3xl font-pirata text-5xl leading-none sm:text-6xl">
             Makeup, making, and little rituals.
           </h2>
         </div>
@@ -37,7 +37,7 @@ export function CategoryCards() {
                 <Icon size={28} strokeWidth={1.7} />
               </div>
               <div className="mt-16">
-                <h3 className="font-display text-4xl leading-none">{title}</h3>
+                <h3 className="font-pirata text-4xl leading-none">{title}</h3>
                 <p className="mt-4 max-w-[30rem] text-base leading-7 text-ink/76">
                   {description}
                 </p>

@@ -12,10 +12,10 @@ export function Navbar() {
       <nav className="mx-auto flex h-18 w-[min(1120px,calc(100%-32px))] items-center justify-between py-4">
         <a href="#home" className="focus-ring group flex items-center gap-3">
           <span className="grid h-10 w-10 place-items-center border border-ink bg-blush transition-transform duration-300 group-hover:-rotate-3">
-            <span className="font-display text-2xl leading-none">S</span>
+            <span className="font-pirata text-2xl leading-none">S</span>
           </span>
           <span className="hidden leading-tight sm:block">
-            <span className="block font-display text-2xl">{siteContent.name}</span>
+            <span className="block font-pirata text-2xl">{siteContent.name}</span>
             <span className="block text-xs font-bold uppercase tracking-[0.16em] text-cherry">
               {siteContent.handle}
             </span>
@@ -23,11 +23,12 @@ export function Navbar() {
         </a>
 
         <div className="hidden items-center gap-6 lg:flex">
+          {/* Top navigation bar */}
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="focus-ring border-b border-transparent py-1 text-sm font-black uppercase tracking-[0.14em] transition hover:border-ink"
+              className="focus-ring border-b border-transparent py-1 text-sm font-pirata uppercase tracking-[0.14em] transition hover:border-ink"
             >
               {item.label}
             </a>
@@ -53,7 +54,7 @@ export function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="focus-ring border border-ink bg-blush px-4 py-3 font-display text-2xl"
+                className="focus-ring border border-ink bg-blush px-4 py-3 font-pirata text-2xl"
               >
                 {item.label}
               </a>
