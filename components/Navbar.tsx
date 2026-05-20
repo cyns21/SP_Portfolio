@@ -16,7 +16,7 @@ export function Navbar() {
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block font-pirata text-2xl">{siteContent.name}</span>
-            <span className="block text-xs font-bold uppercase tracking-[0.16em] text-cherry">
+            <span className="block text-xs font-serif uppercase tracking-[0.16em] text-cherry">
               {siteContent.handle}
             </span>
           </span>
