@@ -28,7 +28,7 @@ export function Navbar() {
             <a
               key={item.href}
               href={item.href}
-              className="focus-ring border-b border-transparent py-1 text-base font-pirata uppercase tracking-[0.14em] transition hover:border-ink"
+              className="focus-ring border-b border-transparent py-1 text-lg font-pirata uppercase tracking-[0.14em] transition hover:border-ink"
             >
               {item.label}
             </a>
