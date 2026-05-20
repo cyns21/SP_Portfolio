@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { navItems, siteContent } from "@/data/siteContent";
@@ -11,12 +12,11 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-ink bg-powder/88 backdrop-blur-sm">
       <nav className="mx-auto flex h-18 w-[min(1120px,calc(100%-32px))] items-center justify-between py-4">
         <a href="#home" className="focus-ring group flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center border border-ink bg-blush transition-transform duration-300 group-hover:-rotate-3">
-            <span className="font-pirata text-2xl leading-none">S</span>
+          <span className="grid h-11 w-11 place-items-center overflow-hidden border border-ink bg-blush p-1 transition-transform duration-300 group-hover:-rotate-3">
+            <Image src="/art/heartwithswords.png" alt="" width={1254} height={1254} className="asset-art h-full w-full" aria-hidden="true" />
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block font-pirata text-2xl">{siteContent.name}</span>
-                      {/* deleted entire subheader. just stephanie ponce */}
           </span>
         </a>
 

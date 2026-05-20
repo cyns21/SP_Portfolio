@@ -1,4 +1,3 @@
-import { AboutSection } from "@/components/AboutSection";
 import { CategoryCards } from "@/components/CategoryCards";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -15,7 +14,6 @@ export default function Home() {
       <Hero />
       <CategoryCards />
       <GalleryPreview />
-      <AboutSection />
       <JournalPreview />
       <ContactSection />
       <Footer />

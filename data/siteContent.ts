@@ -18,10 +18,9 @@ export const siteContent = {
 };
 
 export const navItems = [
-  { label: "Home", href: "#home" },
+  { label: "About", href: "#home" },
   { label: "Gallery", href: "#gallery" },
   { label: "Blog", href: "#blog" },
-  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" }
 ];
 
@@ -57,16 +56,6 @@ export const categories = [
     Icon: CakeSlice,
     tone: "from-white via-blush to-rose/45"
   }
-];
-
-export const styleTags = [
-  "Gothic Cute",
-  "Clown Inspired",
-  "Handmade",
-  "Soft Chaos",
-  "Makeup",
-  "DIY",
-  "Baking"
 ];
 
 export const heroStats = [
