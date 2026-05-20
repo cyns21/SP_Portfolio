@@ -13,7 +13,7 @@ export function Hero() {
           {/* Header in Home Page below. deleted the section adding the block that said violentdelight.666 that was here */}
         <motion.h1 variants={fadeUp} transition={{ duration: 0.72, ease: [0.22, 1, 0.36, 1] }} className="max-w-4xl font-pirata text-[clamp(4.5rem,14vw,8.9rem)] leading-[0.86] tracking-normal">Stephanie Ponce</motion.h1>
         <motion.p variants={fadeUp} transition={{ duration: 0.64, ease: [0.22, 1, 0.36, 1] }} className="mt-6 max-w-2xl font-serif text-2xl font-semibold leading-8 text-velvet sm:text-3xl">{siteContent.tagline}</motion.p>
-        <motion.p variants={fadeUp} transition={{ duration: 0.64, ease: [0.22, 1, 0.36, 1] }} className="mt-3 max-w-2xl font-serif text-xl leading-8 text-ink/78">LA based creative...blah blah... little description about you.</motion.p>
+        <motion.p variants={fadeUp} transition={{ duration: 0.64, ease: [0.22, 1, 0.36, 1] }} className="mt-3 max-w-2xl font-serif text-xl leading-8 text-ink/78">LA based creative...blah blah... little description about you. Open to completely redesigning layout of this but you get the idea. Was also thinking of skipping the about me and going straight to the gallery/portfolio. other artist portfolios i saw do this, and add the "about me" later down or only when the tab is clicked</motion.p>
          {/* Deleted buttons on about page. redundant */}
       </motion.div>
       <motion.div className="relative mx-auto w-full max-w-[520px] lg:max-w-none" initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.72, ease: [0.22, 1, 0.36, 1], delay: 0.16 }}>
