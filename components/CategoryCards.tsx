@@ -7,20 +7,6 @@ import { MotionSection } from "@/components/MotionSection";
 export function CategoryCards() {
   return (
     <MotionSection className="section-shell py-20">
-      <div className="mb-10 flex flex-col justify-between gap-5 md:flex-row md:items-end">
-        <div>
-          <p className="barbed-divider ml-[60px] text-xs font-black uppercase tracking-[0.2em] text-cherry">
-            Featured categories
-          </p>
-          <h2 className="mt-4 max-w-3xl font-pirata text-5xl leading-none sm:text-6xl">
-            Makeup, making, and little rituals.
-          </h2>
-        </div>
-        <p className="max-w-md font-serif text-xl leading-7 text-ink/76">
-          Cleaner portfolio sections with the same pink-card spirit: simple, direct, and easy to replace with final artwork later.
-        </p>
-      </div>
-
       <div className="grid gap-5 lg:grid-cols-3">
         {categories.map(({ title, description, Icon }, index) => (
           <motion.article

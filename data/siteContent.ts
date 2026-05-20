@@ -9,7 +9,7 @@ import {
 export const siteContent = {
   name: "Stephanie Ponce",
   handle: "violentdelight.666",
-  tagline: "Makeup Artist, DIY Creator, Clown, Fangirl",
+  tagline: "Makeup Artist • DIY Creator • Clown • Fangirl",
   intro:
     "A gothic-cute creative portfolio blending makeup, handmade projects, baking, clown-inspired visuals, and soft chaos.",
   email: "stephanie.ponce17@gmail.com",
