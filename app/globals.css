@@ -38,11 +38,6 @@ body::selection { background: rgb(var(--ink)); color: rgb(var(--powder)); }
 }
 .section-shell { position: relative; z-index: 1; width: min(1120px, calc(100% - 32px)); margin-inline: auto; }
 .brutal-card { border: 1.5px solid rgb(var(--ink)); background: rgb(255 239 246 / 0.9); box-shadow: 3px 3px 0 rgb(var(--ink) / 0.84); backdrop-filter: blur(4px); }
-.chrome-edge { border: 1.5px solid rgb(var(--ink)); background: rgb(var(--powder)); }
-.barbed-divider { position: relative; }
-.barbed-divider::before, .barbed-divider::after { content: ""; position: absolute; top: 50%; width: 46px; height: 1.5px; background: rgb(var(--ink)); }
-.barbed-divider::before { right: calc(100% + 14px); }
-.barbed-divider::after { left: calc(100% + 14px); }
 .asset-art { object-fit: contain; mix-blend-mode: multiply; }
 .gallery-visual { background: rgb(var(--blush)); }
 .focus-ring { outline: 2px solid transparent; outline-offset: 4px; transition: outline-color 180ms ease, outline-offset 180ms ease; }

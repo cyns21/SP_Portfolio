@@ -11,9 +11,8 @@ const artByCategory = { Makeup: "/art/heartwithswords.png", DIY: "/art/stars.png
 export function GalleryPreview() {
   return (
     <MotionSection id="gallery" className="section-shell scroll-mt-24 py-20">
-      <div className="mb-10 grid gap-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-end">
-        <div><p className="barbed-divider ml-[60px] text-xs font-black uppercase tracking-[0.2em] text-cherry">Gallery preview</p><h2 className="mt-4 font-pirata text-5xl leading-none sm:text-6xl">Portfolio cards without the plastic shine.</h2></div>
-        <p className="max-w-2xl font-serif text-xl leading-8 text-ink/74 lg:justify-self-end">Flat placeholder artwork keeps the layout complete while making room for Stephanie’s real makeup photos, objects, and bakes.</p>
+      <div className="mb-10">
+        <p className="text-xs font-black uppercase tracking-[0.2em] text-cherry">Gallery preview</p><h2 className="mt-4 font-pirata text-5xl leading-none sm:text-6xl">Portfolio cards without the plastic shine.</h2>
       </div>
       <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {galleryItems.map((item, index) => (
